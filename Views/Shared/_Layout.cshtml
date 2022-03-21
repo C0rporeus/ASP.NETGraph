@@ -35,7 +35,7 @@
                     @if (Request.IsAuthenticated)
                     {
                         <li class="nav-item" data-turbolinks="false">
-                            @Html.ActionLink("Calendar", "Index", "Calendar", new { area = "" },
+                            @Html.ActionLink("Callendar", "Index", "Callendar", new { area = "" },
                                 new { @class = ViewBag.Current == "Calendar" ? "nav-link active" : "nav-link" })
                         </li>
                     }
